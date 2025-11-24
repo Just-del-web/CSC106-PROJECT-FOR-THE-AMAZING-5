@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chetanna">
+    <meta name="description" content="Delivery Information Page">
+    <title>Document</title>
+    <link rel="stylesheet" href="emeraldlane.css">
+    <script src="emeraldLane.js" defer> </script>
+</head>
+<body class="deliveryBody">
+     <header>
+         <div class="logo"><img src="images/lloogo.jpg" alt="Logo">
+  </div>
+    <nav class="landingNav">
+       <a href="landingpage.html">Home</a>
+        <a href="board.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="inquiry.html">Inquire</a>
+        <a href="delivery.html">Check-out</a>
+        <a href="brand.html">Branding</a>
+        <a href="sitemap.html">Site Map</a>
+        <a href="cart.html">My Cart</a>
+        <a href="upcomingevent.html">Our Upcoming Events</a>
+        <a href="privacy.html">Privacy & Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+    </nav>
+    <br>
+
+    </header>
+    
+
+    <marquee class="contactMarquee">EmeraldLane Fashion Week - December 2025 | New Collection Launch Coming Soon!</marquee>
+    <main class="deliveryMain">
+        <div class="divContainer">
+            <p>
+                <h3>Your Items for Order</h3>
+            </p>
+            <div class="itemsli">
+            <p>
+                <ul>
+                    <li>
+                        <a href="#">Item 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Item 2</a>
+                    </li>
+                    <li> 
+                        <a href="#">Item 3</a>
+                    </li>
+                </ul>
+            </p>
+            </div>
+        <div class="delivery-form">
+            <div class="delivery-form-name">
+                <label for="customerName"><h3>Name</label> <br>
+                <input type="text" placeholder="First Name" required="true" autofocus="on" id="firstName" name="firstName">
+                <input type="text" placeholder="Last Name" required="true" id="lastName" name="lastName">
+            </div>
+
+            <div class="delivery-form-email">
+                <label for="customerEmail"><h3>Email</label> <br>
+                <input type="email" placeholder="email@example.com" required="true" id="customerEmail" name="customerEmail">
+            </div>
+
+            <div class="delivery-form-no">
+                <label for="phoneNumber"><h3>Phone Number</label> <br>
+                <input type="tel" placeholder="123-456-7890"required="true" id="pn" name="pn">
+            </div>
+
+            <div class="delivery-form-items">
+                <label for="numberOfItems"><h3>Number of Items</label> <br>
+                <input type="number" required="true" id="numofitems" name="numofitems">
+            </div>
+
+            <div class="delivery-form-ccn">
+                <label for="cardInfo"><h3>Card Information</label> <br>
+                <div class="ccn">
+                    <label for="ccn"><h5>Card Number</label> <br>
+                    <input type="text" placeholder="•••• •••• •••• ••••" pattern="[0-9]{16}" required="true" id="ccn" name="ccn">
+                </div>
+
+                <div class="delivery-form-cdname">
+                    <label for="cdname"><h5>Cardholder's Name</label> <br>
+                    <input type="text" name="cdname" id="cdname" placeholder="Name on Card" required="true">
+                </div>
+
+                <div class="delivery-form-expdt">
+                    <label for="expdt"><h5>Expiration Date</label> <br>
+                    <input type="month" name="expdt" id="expdt" required="true">
+                </div>
+
+                <div class="delivery-form-cvv">
+                    <label for="cvv"><h5>CVV</label> <br>
+                    <input type="text" placeholder="•••" pattern="[0-9]{3}" id="cvv" name="cvv"required="true">
+                </div>
+
+
+            </div>
+
+            <div class="delivery-form-adrs">
+                <label for="address"><h3>Shipping Address</label> <br>
+                <input type="text" placeholder="Street Name" required="true" id="address" name="address"> <br>
+
+                <p>
+                     <div class="delivery-form-city">
+                     <input type="text" placeholder="City" required="true" id="city" name="city">
+                </div>
+                </p>
+               
+                <div class="delivery-form-country">
+                     <input type="text" placeholder="Country" required="true" id="country" name="country">
+                </div>
+            </div>
+
+            <div class="button">
+                <button type="button" id="button"><b></b>Confirm Details</button>
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+    <footer class="inquiryFooter">
+        <p>2025 EmeraldLane Fashion House. All rights reserved.</p>
+        <p><em>EmeraldLane - Where Elegance Meets Confidence.</em></p>
+    </footer>
+
+</body>
+</html>
